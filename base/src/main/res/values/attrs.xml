@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SkeletonView">
+        <attr name="skeleton_layout" format="reference" />
+        <attr name="skeleton_elevation" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ErrorView">
+        <attr name="erv_gravity" format="enum">
+            <enum name="center" value="0" />
+            <enum name="top" value="1" />
+        </attr>
+
+        <attr name="erv_elevation" format="dimension" />
+    </declare-styleable>
+
+</resources>
